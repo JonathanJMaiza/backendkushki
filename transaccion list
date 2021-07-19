@@ -1,0 +1,98 @@
+transactions-list response:
+https://api-uat.kushkipagos.com/analytics/v1/transactions-list?from=2021-07-01T14:00:00&to=2021-07-19T14:00:00&limit=100&ticket_number=283535468585873581
+Private-Merchant-Id 4d87876acd2a4a909692329d7a049801
+{
+    "total": 1,
+    "data": [
+        {
+            "acquirer_bank": "Banco Pacifico",
+            "approval_code": "000000",
+            "approved_transaction_amount": 10.99,
+            "bin_card": "438626",
+            "card_holder_name": "TESTING",
+            "card_type": "Credit",
+            "contact_details": {
+                "document_number": "1724172638",
+                "document_type": "CC",
+                "email": "jona_maiza@hotmail.es",
+                "first_name": "Jonathan",
+                "last_name": "Maiza",
+                "phone_number": "+593988734644"
+            },
+            "country": "Ecuador",
+            "created": "2021-07-19T03:17:45.000Z",
+            "credential_alias": "EPN",
+            "credential_id": "6e2fda5a75f446c7b03dd7463396b3d9",
+            "credit_type": null,
+            "currency_code": "USD",
+            "foreign_card": true,
+            "ice_value": 0,
+            "issuing_bank": null,
+            "iva_value": 0,
+            "last_four_digits": "7714",
+            "merchant_id": "20000000100750033000",
+            "merchant_name": "EPN",
+            "metadata": {
+                "contractID": "157AB"
+            },
+            "payment_brand": "Visa",
+            "processor_id": "1000000915598680696916262214402",
+            "processor_name": "Credimatic Processor",
+            "processor_type": "gateway",
+            "recap": "412413",
+            "request_amount": 10.99,
+            "response_code": "000",
+            "response_text": "Transacción aprobada",
+            "subtotal_iva": 0,
+            "subtotal_iva0": 10.99,
+            "sync_mode": "online",
+            "ticket_number": "283535468585873581",
+            "transaction_id": "752318374050182265",
+            "transaction_reference": "d11748bd-8d55-4253-b2e8-5cb24bfd9e66",
+            "transaction_status": "APPROVAL",
+            "transaction_type": "SALE",
+            "card_country_code": "US",
+            "card_country": "United States of America",
+            "payment_method": "card",
+            "masked_credit_card": "438626XXXXXX7714",
+            "security": {
+                "ip": "201.183.164.189",
+                "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36",
+                "whitelist": false
+            },
+            "string_metadata": "{\"contractID\":\"157AB\"}",
+            "order_details": {
+                "shipping_details": {
+                    "country": "Ecuador",
+                    "zip_code": "170402",
+                    "address": "Eloy Alfaro 139 y Catalina Aldaz",
+                    "phone": "+593988734644",
+                    "city": "Quito",
+                    "name": "Jonathan Maiza",
+                    "region": "Pichincha"
+                },
+                "billing_details": {
+                    "country": "Ecuador",
+                    "zip_code": "170402",
+                    "address": "Eloy Alfaro 139 y Catalina Aldaz",
+                    "phone": "+593988734644",
+                    "city": "Quito",
+                    "name": "Jonathan Maiza",
+                    "region": "Pichincha"
+                },
+                "site_domain": "jmteam.com"
+            },
+            "product_details": {
+                "product": [
+                    {
+                        "quantity": 1,
+                        "price": 10.99,
+                        "id": "2",
+                        "title": "Javascript 2021",
+                        "sku": "675891"
+                    }
+                ]
+            }
+        }
+    ]
+}

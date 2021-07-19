@@ -1,0 +1,111 @@
+https://api-uat.kushkipagos.com/v1/charges/976752226351715532
+Private-Merchant-Id:4d87876acd2a4a909692329d7a049801
+Content-Type:application/json
+{
+  "fullResponse": true,
+  "amount": {
+    "subtotalIva": 0,
+    "subtotalIva0": 12.99,
+    "ice": 0,
+    "iva": 0,
+    "currency": "USD"
+  }
+}
+Void a transaction response:
+{
+  "details": {
+    "acquirerBank": "Banco Pacifico",
+    "approvalCode": "000000",
+    "approvedTransactionAmount": 12.99,
+    "binCard": "438626",
+    "binInfo": {
+      "type": "credit"
+    },
+    "cardHolderName": "TESTING",
+    "cardType": "credit",
+    "contactDetails": {
+      "documentNumber": "1724172638",
+      "documentType": "CC",
+      "email": "jonajavimaiza@gmail.com",
+      "firstName": "Jonathan",
+      "lastName": "Maiza",
+      "phoneNumber": "+593988734644"
+    },
+    "country": "Ecuador",
+    "created": 1626721226000,
+    "credentialAlias": "EPN",
+    "credentialId": "6e2fda5a75f446c7b03dd7463396b3d9",
+    "currencyCode": "USD",
+    "foreignCard": true,
+    "fullResponse": true,
+    "iceValue": 0,
+    "ip": "191.99.151.249",
+    "issuingBank": null,
+    "ivaValue": 0,
+    "lastFourDigits": "7714",
+    "maskedCardNumber": "438626XXXXXX7714",
+    "merchantId": "20000000100750033000",
+    "merchantName": "EPN",
+    "metadata": {
+      "contractID": "157AB"
+    },
+    "orderDetails": {
+      "billingDetails": {
+        "address": "Eloy Alfaro 139 y Catalina Aldaz",
+        "city": "Quito",
+        "country": "Ecuador",
+        "name": "Jonathan Maiza",
+        "phone": "+593988734644",
+        "region": "Pichincha",
+        "zipCode": "170402"
+      },
+      "shippingDetails": {
+        "address": "Eloy Alfaro 139 y Catalina Aldaz",
+        "city": "Quito",
+        "country": "Ecuador",
+        "name": "Jonathan Maiza",
+        "phone": "+593988734644",
+        "region": "Pichincha",
+        "zipCode": "170402"
+      },
+      "siteDomain": "jmteam.com"
+    },
+    "paymentBrand": "Visa",
+    "plcc": false,
+    "processorBankName": "0032~BANCO INTERNACIONAL",
+    "processorId": "1000000915598680696916262214402",
+    "processorMerchantId": "543210",
+    "processorName": "Credimatic Processor",
+    "processorType": "gateway",
+    "productDetails": {
+      "product": [
+        {
+          "id": "1",
+          "price": 12.99,
+          "quantity": 1,
+          "sku": "123456",
+          "title": "Java de 0 a 100"
+        }
+      ]
+    },
+    "recap": "966822",
+    "requestAmount": 12.99,
+    "responseCode": "000",
+    "responseText": "Transacción aprobada",
+    "saleTicketNumber": "976752226351715532",
+    "security": {
+      "whitelist": false
+    },
+    "subtotalIva": 0,
+    "subtotalIva0": 12.99,
+    "syncMode": "online",
+    "token": "79dbd21b41b64c4aba1db8d30aeeff2c",
+    "tokenType": "transaction-token",
+    "transactionId": "1626721671121097694",
+    "transactionReference": "fcadd273-d277-454e-b17d-9188ea49cffe",
+    "transactionStatus": "INITIALIZED",
+    "transactionType": "VOID",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36"
+  },
+  "ticketNumber": "661626721671121380"
+}
